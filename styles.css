@@ -1,0 +1,43 @@
+.over-img-text {
+  color: #fff;
+}
+
+.navbar {
+  padding: 1rem;
+  background-color: #DAE6E5;
+}
+
+.footer {
+  padding: 2rem;
+  background-color: #DAE6E5;
+  color: #000;
+}
+
+.btn-primary:hover {
+  background-color: blue;
+  opacity: 50%;
+}
+
+.hero-background-img {
+  background-image: url('assets/anonymous_fashion_img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
+.hero-background-img:after {
+  content: "";
+  background-image: url("assets/anonymous_fashion_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.5; /* Tone the image down further by giving it transparency */
+}
