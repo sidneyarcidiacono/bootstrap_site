@@ -1,0 +1,19 @@
+{
+  "name": "decostruire",
+  "version": "1.0.0",
+  "description": "Gallery site using bootstrap, node & express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidneyarcidiacono/bootstrap_site.git"
+  },
+  "author": "Sid Arcidiacono",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sidneyarcidiacono/bootstrap_site/issues"
+  },
+  "homepage": "https://github.com/sidneyarcidiacono/bootstrap_site#readme"
+}
