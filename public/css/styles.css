@@ -1,3 +1,27 @@
+body {
+  font-family: 'Advent Pro';
+  background: url("/images/ghost.jpg")
+}
+
+body::before {
+  content: "";
+  background: url("/images/ghost.jpg");
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.5;
+  background-size: cover;
+  align-content: center;
+  repeat: repeat;
+}
+
+img {
+  max-width: 45vw;
+  margin: 15px 5px 15px 5px;
+}
+
 .over-img-text {
   color: #fff;
 }
@@ -28,6 +52,7 @@
   padding: 2rem;
   background-color: transparent;
   color: #fff;
+  text-align: center;
 }
 
 .btn-primary:hover {
