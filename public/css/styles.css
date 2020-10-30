@@ -1,9 +1,8 @@
-body {
+* {
   font-family: 'Advent Pro';
-  background: url("/images/ghost.jpg")
 }
 
-body::before {
+.background-image::before {
   content: "";
   background: url("/images/ghost.jpg");
   position: relative;
@@ -17,16 +16,47 @@ body::before {
   repeat: repeat;
 }
 
-img {
+.background-image {
+  background: url("/images/ghost.jpg");
+}
+
+.main-about {
+  padding: 25px;
+}
+
+.main-about h2, p {
+  padding: 15px;
+}
+
+.main-about p {
+  width: 100%;
+  font-size: 1.25rem;
+}
+
+.highlight-phone {
+  background: url("/images/darksky.jpg");
+}
+
+.btn .btn-primary {
+  background: rgb(79,80,82);
+  margin: 25px;
+}
+
+.carousel-item {
+  margin-top: 15px;
+  padding: 15px;
+}
+
+.gallery-img {
   max-width: 45vw;
   margin: 15px 5px 15px 5px;
 }
 
-.over-img-text {
-  color: #fff;
+.w-100 .d-block {
+  margin-top: 15px;
 }
 
-.navbar-light .navbar-brand {
+.over-img-text {
   color: #fff;
 }
 
@@ -34,13 +64,15 @@ img {
   padding: 0rem;
   background-color: transparent;
   color: #fff;
+  border: none;
+  text-shadow: none;
 }
 
 .navbar .nav-link {
   border: none;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-nav .nav-link {
   color: #fff;
 }
 
@@ -66,19 +98,4 @@ img {
   background-position: center;
   padding-top: 250px;
   padding-bottom: 250px;
-}
-
-.hero-background-img:after {
-  content: "";
-  background-image: url("/images/ghost.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  opacity: 0.5; /* Tone the image down further by giving it transparency */
 }
