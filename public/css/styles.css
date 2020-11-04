@@ -2,6 +2,15 @@
   font-family: 'Advent Pro';
 }
 
+.form-group {
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: auto;
+}
+
 .background-image::before {
   content: "";
   background: url("/images/ghost.jpg");
@@ -98,4 +107,9 @@
   background-position: center;
   padding-top: 250px;
   padding-bottom: 250px;
+}
+
+.col {
+  align-items: center;
+  justify-content: center;
 }

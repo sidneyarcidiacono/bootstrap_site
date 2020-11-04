@@ -12,4 +12,8 @@ router.get('/gallery', controller.getGallery)
 
 router.get('/about', controller.getAboutPage)
 
+router.get('/contact', controller.getContactPage)
+
+router.post('/contact', controller.postContactPage)
+
 module.exports = router

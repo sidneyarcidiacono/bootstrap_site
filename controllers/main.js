@@ -9,3 +9,11 @@ exports.getGallery = (req, res, next) => {
 exports.getAboutPage = (req, res, next) => {
   res.render('about', {pageTitle: 'About'})
 }
+
+exports.getContactPage = (req, res, next) => {
+  res.render('contact', {pageTitle: 'Contact'})
+}
+
+exports.postContactPage = (req, res, next) => {
+  res.render('contact-success', {pageTitle: 'Contact Success'})
+}
