@@ -109,6 +109,15 @@
   padding-bottom: 250px;
 }
 
+.engage-background-img {
+  background-image: url("/images/blankwall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
 .col {
   align-items: center;
   justify-content: center;
