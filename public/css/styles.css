@@ -2,6 +2,19 @@
   font-family: 'Advent Pro';
 }
 
+iframe {
+  z-index: -3;
+}
+
+.gallery-heading {
+  text-align: right;
+  font-family: 'Advent Pro', sans-serif;
+  color: #828282;
+  padding: 15px;
+  margin-top: 100px;
+  margin-bottom: 15px;
+}
+
 .form-group {
   justify-content: center;
   align-items: center;
@@ -70,7 +83,8 @@
 }
 
 .navbar {
-  padding: 0rem;
+  padding: 4px;
+  margin-bottom: 15px;
   background-color: transparent;
   color: #fff;
   border: none;
@@ -121,4 +135,37 @@
 .col {
   align-items: center;
   justify-content: center;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  z-index: 2;
+  background: #272b30;
+  transition: transform 0.4s;
+}
+
+.page-header #navbar {
+  background-color: #272b30;
+}
+
+/*CUSTOM VARIABLES HERE*/
+
+.trigger-menu-wrapper {
+  transition: transform 0.4s;
+}
+
+.scroll-down #navbar {
+  transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up #navbar {
+  transform: none;
+}
+
+.scroll-up:not(.menu-open) #navbar {
+  background: #272b30;
 }
